@@ -304,3 +304,16 @@ body {
 .svg_sprite {
     display: none;
 }
+
+#chat {
+    position: fixed;
+    background: #06d6d6 url('../img/chat.svg') no-repeat center / 30px;
+    box-shadow: 1px 4px 8px 3px #0000002b;;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 1rem;
+    right: 1rem;
+    border: none;
+    outline: none;
+}
