@@ -31,6 +31,12 @@
 .btn.bordered {
     border: 1px solid #393e6b;
 }
+.btn.bordered:hover {
+    background-color: #393e6b;
+    opacity: .8;
+    transition: .2s;
+    color: white;
+}
 .section {
     padding-top: 80px;
     padding-bottom: 80px;
