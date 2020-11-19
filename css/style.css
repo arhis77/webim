@@ -317,3 +317,7 @@ body {
     border: none;
     outline: none;
 }
+#chat:hover {
+    opacity: .8;
+    transition: .2s;
+}
