@@ -16,7 +16,9 @@ body {
     color: #74757b;
     text-transform: uppercase;
     font-size: 20px;
-    color: #393e9b;
+    /* color: #393e9b; */
+    color: #393e6b;
+    text-decoration: none;
 }
 .header .nav-link {
     margin-right: 8px;
@@ -156,8 +158,23 @@ body {
     top: 14px;
 }
 
+.section_05 .list {
+    margin-bottom: 3rem;
+}
+.section_05 .list li {
+    display: flex;
+    align-items: center;
+}
+.section_05 .list p {
+    color: #393e6b;
+}
+.section_05 .list .icon use {
+    width: 75px;
+}
+
 .list--02 .icon {
     width: 75px;
+    min-width: 75px;
     height: 75px;
     margin-right: 35px;
 }
@@ -173,8 +190,10 @@ body {
 
 .section_06 .link {
     display: flex;
+    align-items: center;
     text-decoration: none;
     margin-bottom: 35px;
+    line-height: 1.9;
 }
 .section_06 .link span {
     text-decoration: underline;
@@ -184,10 +203,104 @@ body {
     height: 40px;
     margin-right: 15px;
 }
+.section_06 #yad {
+    width: 40px;
+    margin-right: 15px;
+}
 
+/* Footer */
 .footer {
+    padding: 58px 3rem;
     background-color: #393e6b;
+}
+.footer li {
+    list-style: none;
+}
+.footer .social {
+    display: flex;
+}
+.footer .social a {
+    color: transparent;
+}
+.footer .social .icon {
+    height: 30px;
+    margin-right: 14px;
+}
+.footer .social .vk {
+    width: 24px;
+}
+.footer .social .facebook {
+    width: 11px;
+}
+.footer .social .twitter {
+    width: 20px;
+}
+.footer .social .skype {
+    width: 20px;
+}
+.footer {
+    color: #bcc2c2;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .copyright .logo_footer {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+.footer .copyright {
+    margin-right: 11.938rem;
 }
 .footer .copyright p {
     margin-bottom: 0;
+    font-size: 14px;
+}
+
+.footer .contacts {
+    margin-right: auto;
+}
+.footer .contacts li {
+    margin-bottom: 12px;
+}
+.footer .contacts li:first-child a {
+    font-size: 34px;
+    font-size: 2.125em;
+}
+.footer .contacts li:first-child .icon {
+    margin-right: 15px;
+}
+.footer .contacts li a {
+    font-size: 22px;
+}
+
+.footer .links li {
+    margin-bottom: 4px;
+}
+.footer .links a {
+    font-size: 18px;
+}
+
+@media (max-width: 1129px) {
+    .footer .copyright {
+        margin-right: 1.938rem;
+    }
+    .footer .contacts li a,
+    .footer .contacts li:first-child a  {
+        font-size:  1em;
+        font-family: 'ubuntubold';
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .copyright .logo_footer,
+    .footer .contacts,
+    .footer .links {
+        display: none;
+    }
+}
+
+.svg_sprite {
+    display: none;
 }
